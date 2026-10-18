@@ -1,0 +1,4 @@
+interface:
+  display_name: "黃嘉偉KMW01私域社群變現"
+  short_description: "以內容引流與社群養客，依產業銜接商品、團體報名及客製服務成交"
+  default_prompt: "請使用 $creative-farm-business-workflow，帶我規劃自己的私域社群變現路徑，沿用已知產業資料並調整內容、社群與成交出口。"

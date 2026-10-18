@@ -1,0 +1,6 @@
+trafilatura==2.3.1
+youtube-transcript-api==1.2.4
+pypdf==6.10.0
+qrcode==8.2
+zxing-cpp==2.3.0
+Pillow>=10

@@ -1,0 +1,29 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "w0001-creative-farm-workflow",
+  "version": "0.5.1",
+  "description": "以內容引流、社群養客及適合產業的成交出口，整合品牌、展示、知識、故事、團體方案與個別報價。",
+  "author": {
+    "name": "黃嘉偉"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "黃嘉偉KMW01私域社群變現",
+        "shortDescription": "品牌、知識內容、社群與成交路徑",
+        "longDescription": "M00～M08以同一份私人工作簿承接品牌與跨域需求、展示、知識內容、LINE社群、素材、故事、團體方案與個別報價。文創、小農、保險、美業等按實際業務調整。必要方法、程式與範本同包；圖像、外部頁面及私人保存需本次可用工具與授權，無內建雲端記憶或更新器。",
+        "developerName": "黃嘉偉",
+        "category": "Productivity",
+        "capabilities": [],
+        "defaultPrompt": [
+          "從我的本業與目前困難，開始規劃私域社群變現路徑。",
+          "沿用我的品牌工作簿，繼續上次進度。",
+          "今天只處理知識內容、團購或客製其中一項。"
+        ],
+        "logo": "./assets/logo.png",
+        "composerIcon": "./assets/logo.png"
+      }
+    }
+  },
+  "repository": "https://github.com/DinoHappyKM/kmw01-community-monetization"
+}
