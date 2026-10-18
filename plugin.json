@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "w0001-creative-farm-workflow",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "以內容引流、社群養客及適合產業的成交出口，整合品牌、展示、知識、故事、團體方案與個別報價。",
   "author": {
     "name": "黃嘉偉"

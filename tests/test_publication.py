@@ -1,7 +1,7 @@
 import hashlib,importlib.util,json,re,struct,tempfile,unittest,zipfile
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
-ZIP=ROOT/"downloads/kmw01-community-monetization-0.5.1.zip"
+ZIP=ROOT/"downloads/kmw01-community-monetization-0.5.2.zip"
 spec=importlib.util.spec_from_file_location("rawzip",ROOT/"tools/verify_zip_raw.py");raw=importlib.util.module_from_spec(spec);spec.loader.exec_module(raw)
 sha=lambda f:hashlib.sha256(f.read_bytes()).hexdigest()
 class Publication(unittest.TestCase):
@@ -40,10 +40,10 @@ class Publication(unittest.TestCase):
    listed={line.split("  ",1)[1]:line.split("  ",1)[0] for line in (pkg/"SHA256SUMS.txt").read_text(encoding="utf-8").splitlines()}
    actual={f.relative_to(pkg).as_posix():sha(f) for f in pkg.rglob("*") if f.is_file() and f.name!="SHA256SUMS.txt"};self.assertEqual(listed,actual)
  def test_08_manifest_and_disclosure(self):
-  m=json.loads((ROOT/"plugin.json").read_text(encoding="utf-8"));self.assertEqual(m["version"],"0.5.1");self.assertEqual(m["name"],"w0001-creative-farm-workflow");self.assertEqual(m["repository"],"https://github.com/DinoHappyKM/kmw01-community-monetization")
+  m=json.loads((ROOT/"plugin.json").read_text(encoding="utf-8"));self.assertEqual(m["version"],"0.5.2");self.assertEqual(m["name"],"w0001-creative-farm-workflow");self.assertEqual(m["repository"],"https://github.com/DinoHappyKM/kmw01-community-monetization")
   ui=m["extensions"]["com.openai"]["interface"];self.assertEqual(ui["displayName"],"黃嘉偉KMW01私域社群變現");self.assertLessEqual(len(ui["shortDescription"]),30)
   for k in ["composerIcon","logo"]:self.assertTrue((ROOT/ui[k]).is_file())
-  version=json.loads((ROOT/"VERSION.json").read_text(encoding="utf-8"));self.assertEqual(version["student_account_installation"],"pending")
+  version=json.loads((ROOT/"VERSION.json").read_text(encoding="utf-8"));self.assertEqual(version["student_account_installation"],"user-reported-archive-import")
  def test_09_markdown_references(self):
   for f in ROOT.rglob("*.md"):
    for target in re.findall(r"\[[^]\n]+\]\(([^)]+)\)",f.read_text(encoding="utf-8")):
