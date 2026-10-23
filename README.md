@@ -2,11 +2,11 @@
 
 以內容引流、社群養客與適合產業的成交出口，串起品牌、展示、知識、日常圖文、團體方案與個別報價。適用文創、小農、活動服務、美業、保險等情境，依實際業務調整。
 
-**公開試用交付版**｜Plugin0.5.2 · Skill0.7.6 · 學生導覽0.2.2
+**公開試用交付版**｜Plugin0.5.3 · Skill0.7.7 · 學生導覽0.2.3
 
 ## 從這裡開始
 - [學生使用、保存與更新步驟](STUDENT_GUIDE.md)
-- [下載技能套件 ZIP](downloads/kmw01-community-monetization-0.5.2.zip?raw=true)
+- [下載技能套件 ZIP](downloads/kmw01-community-monetization-0.5.3.zip?raw=true)
 - [下載空白工作簿](downloads/我的私域社群工作簿_空白.md)
 - [互動導覽原始檔](docs/index.html)：需要啟用網站托管後才是可操作網頁。
 - [本次驗證與尚待實測項目](VALIDATION.md)
@@ -23,6 +23,12 @@ flowchart LR
  F --- D
  F --- E
 ```
+
+## 本版M03更新
+喜好圖→一頁試版→本人確認→保存品牌版型卡；以後同品牌沿用。每篇封面實際製作、確認、放進原生cover並回讀。
+- [M03完整方法](skills/creative-farm-business-workflow/references/m03-notion-layout.md)
+- [有圖的版型範本](skills/creative-farm-business-workflow/assets/m03-notion-page-template.md)
+- 示範圖只用於教學，不能自動當成學員品牌；手機與帳號實測仍需各自確認。
 
 ## 模組
 | 模組 | 工作 |

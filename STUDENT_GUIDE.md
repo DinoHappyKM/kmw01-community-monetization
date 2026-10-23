@@ -20,4 +20,4 @@
 工作內容相同，實際工具、額度、下載與安裝入口依帳號及介面。Free／Go／Plus不能只憑方案名稱推定支援；手機及私人續接由真實帳號驗證。程式工具需要可執行的環境與依賴，方法包不自帶雲端後台。Notion／LINE操作需要本人的可用工具與授權。
 
 ## 版本
-Plugin0.5.2／Skill0.7.6／學生導覽0.2.2。這是公開試用交付版，並非已上架ChatGPT外掛目錄。官方安裝說明：https://learn.chatgpt.com/docs/plugins?surface=web
+Plugin0.5.3／Skill0.7.7／學生導覽0.2.3。這是公開試用交付版，並非已上架ChatGPT外掛目錄。官方安裝說明：https://learn.chatgpt.com/docs/plugins?surface=web

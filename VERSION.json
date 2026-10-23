@@ -1,8 +1,8 @@
 {
   "workflow": "KMW01",
-  "plugin": "0.5.2",
-  "skill": "0.7.6",
-  "guide": "0.2.2",
+  "plugin": "0.5.3",
+  "skill": "0.7.7",
+  "guide": "0.2.3",
   "repository": "https://github.com/DinoHappyKM/kmw01-community-monetization",
   "student_account_installation": "user-reported-archive-import",
   "physical_mobile": "user-reported-install-only",

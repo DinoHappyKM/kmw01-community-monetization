@@ -2,7 +2,7 @@
 name: creative-farm-business-workflow
 description: "KMW01私域社群變現：以內容引流、社群養客及商品／服務成交串起品牌、展示、知識、日常與成交出口；需要完整私域路徑、單點任務或續接私人企劃時使用，依文創、小農、保險、美業等產業適配。"
 metadata:
-  version: "0.7.6"
+  version: "0.7.7"
 ---
 
 # 黃嘉偉KMW01私域社群變現
@@ -21,7 +21,7 @@ metadata:
 | M00進度與整合 | 續接、改上游資料、串起成果：[工作簿／私人資料](references/workbook-and-private-data.md)；保存或私人副本續接時讀[Notion與私人企劃](references/personal-plan-and-notion.md) |
 | M01品牌與成交路徑 | 品牌、商品角色、本業及跨域，完整規劃交付建議報告：[本業路徑](references/m01-business-route.md) |
 | M02 A／B SiteMap與平台 | 本業後先A對外／B內部地圖，按產業調作品／服務展示、商品銷售頁與選用靈感收藏，交資料夾與搜尋詞後由學員自行建立，遇問題再問：[SiteMap與平台](references/m02-inspiration-and-products.md) |
-| M03加入理由與知識 | AI幫找需求／貼素材兩入口、複合文章、品牌封面、私人保存及Notion子頁；Notion交付必讀該reference的逐項檢查，不得以來源圖代替品牌封面；手機／來源受阻時另讀[簡單操作與備援](references/m03-mobile-and-fallback.md)；可用本機工具：[知識與Notion](references/m03-knowledge-and-notion.md) |
+| M03做出對顧客有用的內容 | AI找題／我有素材兩入口；首次Notion依喜好圖做一頁試版、確認後保存規範卡；複合文章、品牌封面、私人保存及Notion子頁；Notion交付必讀該reference的逐項檢查，不得以來源圖代替品牌封面；手機／來源受阻時另讀[簡單操作與備援](references/m03-mobile-and-fallback.md)；可用本機工具：[知識與Notion](references/m03-knowledge-and-notion.md) |
 | M04LINE受眾承接 | 社群五設定、Notion記事本入口、A4社群／私訊QR海報（品牌情緒花字、大小粗細與目的地辨識）及問題分流：[LINE承接](references/m04-line-audience.md) |
 | M05美感與素材 | 老師親授的拍攝／選圖、Vivisticker故事圖／短影片包裝與存手機；AI保留教學流程供最終總覽，不安排自動操作或補測：[美感素材](references/m05-aesthetic-materials.md) |
 | M06日常貼文與做圖 | 文章固定A加法反轉／B減法感受／C日常紀錄，首次三篇各一個獨立複製區塊，送出前確認三塊齊全；確認後分文章／自己美編／AI完整封面：[故事媒體](references/m06-story-and-media.md)；花字PNG底塊設計必讀[構圖與承托](references/m06-title-backing-design.md)，不需另裝黃嘉偉KM |
